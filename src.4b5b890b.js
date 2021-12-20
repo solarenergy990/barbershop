@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/Slider-img-3.jpg":[["Slider-img-3.11fa71cc.jpg","XFQh"],"XFQh"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/barbershop/src.652f289d.js.map
+//# sourceMappingURL=/barbershop/src.4b5b890b.js.map
