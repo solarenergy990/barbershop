@@ -3,17 +3,50 @@
 }
 
 .hero__overlay {
-  max-width: 1600px;
+  max-width: 1280px;
   height: 580px;
   margin-right: auto;
   margin-left: auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url('../images/Slider-img-3.jpg');
+  background-image: url('../images/Slider-img-mobile-3.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (max-width: 1199px) {
-    height: 400px;
+}
+
+@media (min-resolution: 2dppx) {
+  .hero__overlay {
+    background-image: url('../images/Slider-img-mobile-3@2x.jpg');
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero__overlay {
+    background-image: url('../images/Slider-img-tablet-3.jpg');
+    background-size: cover;
+    height: 680px;
+  }
+  @media (min-resolution: 2dppx) {
+    .hero__overlay {
+      background-image: url('../images/Slider-img-tablet-3@2x.jpg');
+      background-size: cover;
+      height: 680px;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero__overlay {
+    background-image: url('../images/Slider-img-desktop-3.jpg');
+    background-size: cover;
+    height: 680px;
+  }
+  @media (min-resolution: 2dppx) {
+    .hero__overlay {
+      background-image: url('../images/Slider-img-desktop-3@2x.png');
+      background-size: cover;
+      height: 680px;
+    }
   }
 }
