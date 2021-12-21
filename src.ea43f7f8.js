@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../images/Slider-img-mobile-3.jpg":[["Slider-img-mobile-3.11fa71cc.jpg","Z44c"],"Z44c"],"./../images/Slider-img-mobile-3@2x.jpg":[["Slider-img-mobile-3@2x.78723da4.jpg","u6C9"],"u6C9"],"./../images/Slider-img-tablet-3.jpg":[["Slider-img-tablet-3.079ec67d.jpg","gq9F"],"gq9F"],"./../images/Slider-img-tablet-3@2x.jpg":[["Slider-img-tablet-3@2x.f806eb13.jpg","ONDx"],"ONDx"],"./../images/Slider-img-desktop-3.jpg":[["Slider-img-desktop-3.59de62ab.jpg","Se7w"],"Se7w"],"./../images/Slider-img-desktop-3@2x.png":[["Slider-img-desktop-3@2x.c39b6657.png","FBZR"],"FBZR"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/barbershop/src.4cc9ee11.js.map
+//# sourceMappingURL=/barbershop/src.ea43f7f8.js.map
