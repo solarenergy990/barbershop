@@ -64,8 +64,15 @@ img {
     padding-bottom: 100px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     padding-top: 130px;
     padding-bottom: 130px;
   }
+}
+
+.appointment-button {
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  box-sizing: border-box;
+  border-radius: 25px;
 }

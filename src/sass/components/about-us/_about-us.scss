@@ -1,0 +1,78 @@
+.about-us__subtitle {
+  display: flex;
+  align-items: center;
+
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $secondary-font-weight;
+  font-size: $subtitle-text-size;
+  line-height: $secondary-line-height;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: $title-text-colour;
+
+  margin-bottom: 20px;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background: $title-text-colour;
+    margin-right: 20px;
+  }
+}
+
+.about-us__title {
+  font-family: $secondary-font-family;
+  font-style: normal;
+  font-weight: $rare-text-weight;
+  font-size: $rare-title-text-size;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: $title-text-colour;
+
+  margin-bottom: 20px;
+}
+
+.about-us__subtext {
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $primary-text-weight;
+  font-size: $subtext-text-size;
+  line-height: $primary-line-height;
+  letter-spacing: 0.02em;
+
+  color: $primary-text-colour;
+
+  margin-bottom: 20px;
+}
+
+.about-us__text {
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $primary-text-weight;
+  font-size: $primary-text-size;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+
+  color: $primary-text-colour;
+
+  margin-bottom: 40px;
+}
+
+.about-us__button-text {
+  display: block;
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $secondary-font-weight;
+  font-size: $button-text-size;
+  line-height: $secondary-line-height;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: $title-text-colour;
+  padding: 12px 20px;
+}
