@@ -3,8 +3,9 @@
   height: 826px;
   margin-right: auto;
   margin-left: auto;
-  background: rgba(25, 28, 38, 0.2);
-  background-image: url('../images/prices-mobile.jpg');
+  // background: #111319;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/prices-mobile.jpg');
 
   background-repeat: no-repeat;
   background-position: center;
@@ -13,20 +14,23 @@
 
 @media (min-resolution: 2dppx) {
   .prices__overlay {
-    background-image: url('../images/prices-mobile@2x.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('../images/prices-mobile@2x.jpg');
     background-size: cover;
   }
 }
 
 @media (min-width: 768px) {
   .prices__overlay {
-    background-image: url('../images/prices-tablet.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('../images/prices-tablet.jpg');
     background-size: cover;
     height: 858px;
   }
   @media (min-resolution: 2dppx) {
     .prices__overlay {
-      background-image: url('../images/prices-tablet@2x.jpg');
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../images/prices-tablet@2x.jpg');
       background-size: cover;
       height: 858px;
     }
@@ -35,13 +39,15 @@
 
 @media (min-width: 1280px) {
   .prices__overlay {
-    background-image: url('../images/prices-desktop.jpg');
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('../images/prices-desktop.jpg');
     background-size: cover;
     height: 718px;
   }
   @media (min-resolution: 2dppx) {
     .prices__overlay {
-      background-image: url('../images/prices-desktop@2x.jpg');
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../images/prices-desktop@2x.jpg');
       background-size: cover;
       height: 718px;
     }
