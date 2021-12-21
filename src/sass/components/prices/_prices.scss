@@ -1,6 +1,6 @@
 .prices__overlay {
-  //   max-width: 1280px;
-  height: 826px;
+  max-width: 1280px;
+  height: 880px;
   margin-right: auto;
   margin-left: auto;
   // background: #111319;
@@ -25,14 +25,14 @@
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url('../images/prices-tablet.jpg');
     background-size: cover;
-    height: 858px;
+    height: 863px;
   }
   @media (min-resolution: 2dppx) {
     .prices__overlay {
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         url('../images/prices-tablet@2x.jpg');
       background-size: cover;
-      height: 858px;
+      height: 863px;
     }
   }
 }
@@ -52,4 +52,100 @@
       height: 718px;
     }
   }
+}
+
+.prices__subtitle {
+  display: flex;
+  align-items: center;
+
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $secondary-font-weight;
+  font-size: $subtitle-text-size;
+  line-height: $secondary-line-height;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+
+  color: rgba(157, 164, 189, 0.6);
+  &:before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background: rgba(157, 164, 189, 0.6);
+    margin-right: 20px;
+  }
+}
+
+.prices__title {
+  font-family: $secondary-font-family;
+  font-style: normal;
+  font-weight: $rare-text-weight;
+  font-size: $title-text-size;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: $main-white;
+
+  margin-bottom: 44px;
+}
+
+.prices-list__container {
+  padding: 30px;
+  margin-bottom: 50px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+
+.prices-list__item {
+  display: flex;
+  align-items: baseline;
+
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $primary-text-weight;
+  font-size: $primary-text-size;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+
+  color: $secondary-text-colour;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.price-list__devider {
+  flex-grow: 1;
+  content: '';
+  display: block;
+  height: 1px;
+  background: rgba(157, 164, 189, 0.12);
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.prices__button-text {
+  display: block;
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $secondary-font-weight;
+  font-size: $button-text-size;
+  line-height: $secondary-line-height;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: $title-text-colour;
+  padding: 12px 20px;
+
+  &:hover,
+  :focus {
+    color: $main-white;
+  }
+}
+
+.prices__button {
+  display: flex;
+  justify-content: center;
 }
