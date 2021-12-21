@@ -75,4 +75,10 @@ img {
   border: 1px solid #ff6c00;
   box-sizing: border-box;
   border-radius: 25px;
+  cursor: pointer;
+
+  &:hover,
+  :focus {
+    background-color: $accent;
+  }
 }
