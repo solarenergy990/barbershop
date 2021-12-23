@@ -1,0 +1,94 @@
+.benefits__subtitle {
+  display: flex;
+  align-items: center;
+
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $secondary-font-weight;
+  font-size: $subtitle-text-size;
+  line-height: $secondary-line-height;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: $title-text-colour;
+  margin-bottom: 20px;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60px;
+    background: $title-text-colour;
+    margin-right: 20px;
+  }
+}
+
+.benefits__title {
+  font-family: $secondary-font-family;
+  font-style: normal;
+  font-weight: $rare-text-weight;
+  font-size: $title-text-size;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+
+  color: $title-text-colour;
+
+  margin-bottom: 20px;
+}
+
+.benefits__text {
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $primary-text-weight;
+  font-size: $secondary-text-size;
+  line-height: $primary-line-height;
+  letter-spacing: 0.02em;
+
+  color: $primary-text-colour;
+
+  margin-bottom: 44px;
+}
+
+.benefits__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
+}
+
+.benefits__list-item {
+  width: 194px;
+
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 30px;
+
+  flex-basis: calc((100% - 60px) / 2);
+  background-color: $rare-background-colour;
+}
+
+.benefits__quantity {
+  font-family: $primary-font-family;
+  font-style: normal;
+  font-weight: $rare-text-weight;
+  font-size: $title-text-size;
+  line-height: $secondary-line-height;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: $title-text-colour;
+
+  & span {
+    font-family: $primary-font-family;
+    font-style: normal;
+    font-weight: $secondary-font-weight;
+    font-size: $subtext-text-size;
+    line-height: $secondary-line-height;
+
+    vertical-align: top;
+
+    color: $accent;
+  }
+}
